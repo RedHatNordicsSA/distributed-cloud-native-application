@@ -18,7 +18,7 @@ patches:
    patch: |-
     - op: replace
       path: /data/name
-      value: ca-central
+      value: ocpmgt
     - op: replace
       path: /data/console-authentication
       value: openshift
