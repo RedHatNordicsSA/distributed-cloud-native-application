@@ -7,10 +7,10 @@ bases:
   - ../../base/instance
 
 patches:
--  target:
-     kind: ConfigMap
-     name: skupper-site
-   patch: |-
-    - op: replace
-      path: /data/name
-      value: us-philly
+- target:
+    kind: ConfigMap
+    name: skupper-site
+  patch: |-
+   - op: replace
+     path: /data/name
+     value: rh-ocp-01
