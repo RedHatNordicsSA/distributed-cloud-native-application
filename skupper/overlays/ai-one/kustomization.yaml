@@ -13,4 +13,4 @@ patches:
   patch: |-
    - op: replace
      path: /data/name
-     value: ai1
+     value: ai-one
