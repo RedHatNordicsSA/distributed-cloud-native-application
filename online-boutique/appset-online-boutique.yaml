@@ -17,10 +17,10 @@ spec:
     spec:
       project: default
       source:
-        repoURL: 'https://github.com/adetalhouet/distributed-cloud-native-application'
-        targetRevision: main
+        repoURL: 'https://github.com/RedHatNordicsSA/distributed-cloud-native-application'
+        targetRevision: ikke
         path: 'online-boutique'
-        helm: 
+        helm:
           valueFiles:
             - '{{name}}-values.yaml'
       destination:
