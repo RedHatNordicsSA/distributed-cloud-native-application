@@ -14,4 +14,4 @@ patches:
   patch: |-
    - op: replace
      path: /data/name
-     value: ai-one
+     value: rh-ocp-02
